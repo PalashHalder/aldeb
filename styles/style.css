@@ -1,0 +1,188 @@
+/* Common CSS Start*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #000;
+}
+
+
+
+/* google font styles */
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}  
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* google fonts pack */
+
+
+/* ========== navbar start here ==========*/
+#navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    
+}
+
+#navbar .container{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#navbar .container .sidebyside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    padding-bottom: 20px;
+}
+
+.menu_item ul{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.menu_item ul li a{
+    font-size: 24px;
+}
+
+.menu_item ul .home{
+    font-weight: 700;
+}
+
+.hr_line{
+    border: 1px solid #3ED1BA;
+}
+
+
+/* banner start  */
+
+#banner{
+    position: relative;
+    
+    
+}
+#banner .banner_bg{
+    width: 1180px;
+    height: 1046px;
+    background: linear-gradient(115deg, #D8FBF6 1.33%, #FFF3F3 100%); 
+    position: absolute; 
+    left: 0;
+    top: 0;
+    
+
+}
+
+#banner .container{
+    position: relative;
+    padding-top: 180px;
+    display: flex;
+    z-index: 9996;
+    column-gap: 104px;
+    padding-left: 54px;
+}
+
+#banner .left-part{
+    width: 624px;
+   
+}
+
+#banner h1{
+    font-size: 64px;
+    color: #333;
+    line-height: normal;
+}
+
+#banner p{
+   font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 585px;
+    margin-top: 24px;
+}
+
+#banner .right-part{
+    width: 624px;
+}
+
+
+#banner .banner-icons span{
+    border: 2px solid #3ED1BA;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    line-height: 52px;
+    font-weight: 700;
+    color: #3ED1BA;
+    padding: 4px;
+    margin-right: 30px;
+    margin-top: 68px;
+}
+
